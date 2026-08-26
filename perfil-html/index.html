@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Perfil - Desarrollo de Soluciones en la Nube</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #1f2937, #0f172a);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 16px;
+      max-width: 420px;
+      width: 100%;
+      overflow: hidden;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+    }
+
+    .cover {
+      height: 100px;
+      background: linear-gradient(135deg, #2563eb, #7c3aed);
+    }
+
+    .avatar {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      background: #e5e7eb;
+      border: 5px solid #ffffff;
+      margin: -55px auto 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 42px;
+      font-weight: bold;
+      color: #4b5563;
+    }
+
+    .content {
+      padding: 24px 28px 32px;
+      text-align: center;
+    }
+
+    .content h1 {
+      font-size: 22px;
+      color: #111827;
+      margin-bottom: 4px;
+    }
+
+    .content .role {
+      color: #6b7280;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .info {
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 24px;
+    }
+
+    .info-item {
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+      border-bottom: 1px solid #f1f5f9;
+      padding-bottom: 8px;
+    }
+
+    .info-item span:first-child {
+      color: #6b7280;
+      font-weight: 600;
+    }
+
+    .info-item span:last-child {
+      color: #111827;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: center;
+      margin-bottom: 24px;
+    }
+
+    .skill {
+      background: #eef2ff;
+      color: #4338ca;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 6px 12px;
+      border-radius: 999px;
+    }
+
+    .links {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+    }
+
+    .links a {
+      flex: 1;
+      text-decoration: none;
+      background: #111827;
+      color: #ffffff;
+      padding: 10px 0;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      transition: opacity 0.2s;
+    }
+
+    .links a:hover {
+      opacity: 0.85;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="cover"></div>
+    <div class="avatar">GA</div>
+    <div class="content">
+      <h1>Gean Pierre Ayala</h1>
+      <p class="role">Estudiante · Desarrollo de Soluciones en la Nube</p>
+
+      <div class="info">
+        <div class="info-item">
+          <span>Curso</span>
+          <span>Desarrollo de Soluciones en la Nube</span>
+        </div>
+        <div class="info-item">
+          <span>Sección</span>
+          <span>5 - C24 AB</span>
+        </div>
+        <div class="info-item">
+          <span>Correo</span>
+          <span>gean.ayala.dev@gmail.com</span>
+        </div>
+        <div class="info-item">
+          <span>Institución</span>
+          <span>Tecsup</span>
+        </div>
+      </div>
+
+      <div class="skills">
+        <span class="skill">HTML/CSS</span>
+        <span class="skill">Node.js</span>
+        <span class="skill">Render</span>
+        <span class="skill">PostgreSQL</span>
+      </div>
+
+      <div class="links">
+        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:gean.ayala.dev@gmail.com">Contacto</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
